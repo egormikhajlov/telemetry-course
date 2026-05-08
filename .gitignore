@@ -1,0 +1,18 @@
+# Исключаем папку target (билды Rust)
+target/
+
+# Исключаем Cargo.lock (опционально)
+Cargo.lock
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи
+*.log
